@@ -21,8 +21,6 @@ public class CharController : MonoBehaviour
     [HideInInspector]
     public bool canMove = true;
 
-    public GameObject player;
-
     void Start()
     {
         characterController = GetComponent<CharacterController>();
